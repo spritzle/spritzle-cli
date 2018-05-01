@@ -4,7 +4,7 @@ import click
 from tabulate import tabulate
 
 
-@click.command('stats', short_help='Show status of the session.')
+@click.command('stats', short_help='Show session statistics.')
 @click.pass_obj
 def command(client):
     client.do_command(f)
